@@ -10,6 +10,7 @@ It will help to stay on the current platform and library releases.
 | github_token  | Github Token to create the MR           | Secure String                            | Yes      |
 | assignee      | MR will be assigned to this Github user | User String                              | No       |
 | project_path  | Path to platformio.ini file (default will be root folder) | Path inside repository | No       |
+| python_version | Python version PlatformIO runs with, e.g. `3.13` or `3.15`. Default: `3.13` | Version string | No       |
 
 ## Example Usage
 

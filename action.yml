@@ -10,6 +10,10 @@ inputs:
   project_path:
     description: 'Path to PlatformIO Project. Default: current root dir'
     required: false
+  python_version:
+    description: 'Python version to run PlatformIO with, e.g. 3.13 or 3.15. Default: 3.13'
+    required: false
+    default: '3.13'
 runs:
   using: 'docker'
   image: 'Dockerfile'
